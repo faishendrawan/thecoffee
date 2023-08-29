@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  <title>Login Page</title>
+</head>
+<body>
+  <div class="wrapper">
+
+    <div class="img">
+      <img src="../img/login.png" alt="">
+    </div>
+
+    <div class="form">
+      <form action="">
+        <div class="upper-form">
+
+          <div class="login-medsos">
+            <p>Log in with</p>
+            <a href="#">
+              <i data-feather="facebook"></i>
+            </a>
+            <a href="#">
+              <i data-feather="mail"></i>
+            </a>
+            <a href="#">
+              <i data-feather="linkedin"></i>
+            </a>
+
+          </div> 
+
+          <div class="or">
+            <hr color="#b6895b">
+            <p>Or</p>
+          </div>
+          
+        </div>
+        <div class="body-form">
+          <div class="content-form">
+            <label for="username">Username</label>
+            <input type="text" name="username" placeholder="username">
+          </div>
+          <div class="content-form">
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="password">
+          </div>
+          <div class="content-form-cb">
+            <div class="checkbox">
+              <input type="checkbox" name="checkbox">
+              <p>Remember me</p>
+            </div>
+            <div class="link">
+              <a href="#">Forgot password?</a>
+            </div>
+          </div>
+          <div class="btn">
+            <a href="../index.html" type="submit" class="back">Back</a>
+            <a href="#" type="submit" class="login">Login</a>
+          </div>
+        </div>
+        <div class="lower-form">
+          <div class="no-account">
+            Don't have an account?
+          </div>
+          <a href="signup.html" class="signup">Sign Up</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- Icons -->
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>

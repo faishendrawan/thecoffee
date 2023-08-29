@@ -1,0 +1,212 @@
+:root {
+  --primary: #b6895b;
+  --bg: #010101;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.img img {
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* padding: 3rem; */
+  border-radius: 5%;
+}
+
+.sub-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div .login-medsos{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+div .login-medsos p{
+  margin: 0 0.5rem 0 0;
+  font-size: 23px;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  color: var(--primary);
+}
+
+div .login-medsos a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 1px solid var(--primary);
+  align-items: center;
+}
+
+div .login-medsos a:hover {
+  background-color: #b6895b;
+  color: #fff;
+}
+
+div .or p{
+  margin: 0;
+  width: 30px;
+  text-align: center;
+  position: relative;
+  top: -22px;
+  left: 140px;
+  background-color: #fff;
+}
+
+
+.content-form  {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-form label {
+  opacity: 0.75;
+}
+
+.content-form input {
+  border-radius: 5px;
+  border: 1px solid var(--primary);
+  height: 35px;
+  font-size: 15px;
+  margin: 0.7rem 0;
+  padding: 0 0.5rem;
+  color: var(--primary);
+}
+.content-form input:focus {
+  opacity: 1;
+  border-color: var(--primary);
+  border: none;
+}
+
+.content-form-cb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  width: 15px;
+  height: 15px;
+}
+
+.checkbox p {
+  font-size: 14px;
+  margin: 0 0 0 0.3rem;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--primary);    
+}
+
+.link a{
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+.btn {
+  display: flex;
+}
+
+.btn a.back{
+  padding: 12px 48px;
+  border-radius: 5px;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-top: 0.4rem;
+  cursor: pointer;
+  background-color: var(--primary);
+  font-weight: 600;
+  width: 50%;
+  margin-right: 0.25rem;
+}
+
+.btn a.login {
+  padding: 12px 48px;
+  border-radius: 5px;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  margin-top: 0.4rem;
+  cursor: pointer;
+  background-color: #fff;
+  font-weight: 600;
+  width: 50%;
+  margin-left: 0.25rem;
+}
+
+.btn a.login:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  margin-top: 0.4rem;
+  cursor: pointer;
+  background-color: var(--primary);
+  font-weight: 600;
+  width: 50%;
+}
+
+.lower-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.signup {
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+
+@media (max-width: 650px) {
+  .img {
+    display: none;
+  }
+}
